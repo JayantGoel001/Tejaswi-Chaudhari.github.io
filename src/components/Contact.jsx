@@ -42,20 +42,20 @@ const Contact = ({ darkMode }) => {
 
     return (
         <div data-theme={darkMode ? "dark" : "light"}>
-            <br></br>
+            <br/>
             <Fade>
                 <Container>
                     <Row>
                         <Col lg={4}>
-                            <br></br>
+                            <br/>
                             <h2 className="lead">Contact me!</h2>
                             <p className="contact-text">Drop a suggestion, feedback, opportunities or we can colaborate on a project. Please mention your contact details if you are expecting a reply.</p>
-                            <br></br>
-                            <img src={darkMode ? contactDark : contactLight} alt="contact" className="contact-img img-fluid" />
-                            <br></br>
+                            <br/>
+                            <img src={darkMode ? contactDark : contactLight} alt="contact" className="contact-img img-fluid" height="150px" width="228px" />
+                            <br/>
                         </Col>
                         <Col lg={8}>
-                            <br></br>
+                            <br/>
                             <Form onSubmit={e => onSubmit(e)}>
                                 <Form.Group>
                                     <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your name" required />
@@ -68,7 +68,7 @@ const Contact = ({ darkMode }) => {
                                 </Button>
                             </Form>
                         </Col>
-                        <br></br>
+                        <br/>
                     </Row>
                 </Container>
             </Fade>
