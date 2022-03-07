@@ -14,7 +14,7 @@ import './components/styles.css'
 function App() {
 
   const [darkMode, setDarkMode] = useState(false);
-  const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
+  const toggleDarkMode = () => setDarkMode(!darkMode);
 
   return (
     <Router>
@@ -35,7 +35,7 @@ function App() {
                 </Button>
             </Navbar.Collapse>
           </Navbar>
-          <hr></hr>
+          <hr/>
           <div id="home">
           <Home darkMode={darkMode} />
           </div>
@@ -53,7 +53,7 @@ function App() {
           </div>
           <Footer />
           </Route>
-          <br></br>
+          <br/>
       </div>
     </Router>
   );
