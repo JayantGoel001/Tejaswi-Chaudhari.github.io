@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import './styles.css';
 import connectLight from '../media/connect-light.webp';
 import connectDark from '../media/connect-dark.webp';
-import resume from '../media/TejaswiChaudhari_Resume.pdf'
+import resume from '../media/Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
@@ -85,19 +85,8 @@ const About = ({ darkMode }) => {
                   <Card.Title><h2 className="lead">Let's have an introduction!</h2></Card.Title>
                   <br/>
                   <Card.Text>
-                    <p>I am a <strong>Sophomore</strong> at Usha Mittal Institute of Technology, Department of <strong>Computer Science and Technology</strong>. I believe that learning is a stream and it ought not to stop. I am a <strong>passionate developer</strong> and believe in <strong>networking</strong> a lot. Many things excite me in this expanse of technology, and I like to explore and keep my options open all the time. I am up for challenges that take me by surprise. I'm comfortable working on any domain if I find the project is worth it. You can imagine me focused on the laptop screen and typing or taking down notes. Apart from technical things, I enjoy good books and verses, and I have a good eye for art.<br/>
-                      Now that you know me a bit, please feel free to drop a text so that we can start a<strong> conversation.</strong></p>
+                    <p align="justify">I go by the saying, <strong>"Learning is a stream, and it ought not to stop."</strong> <br/>I am a final year student at Usha Mittal Institute of Technology in the Computer Science and Technology Department. I am a full-stack developer, a developer by passion and a designer by heart. I work with different tech stacks to create beautiful websites, React and Django being my top favorite. <br />My primary domains of interest are <strong>Machine Learning</strong> and <strong>Database Systems</strong>, backed by my projects and experience. I was always interested in multiple things, and multitasking gradually became a routine. I love networking, and I could spend hours talking about things. Effective communication is the only way to complete tasks in a team, so you might as well do well in it. If you offer me an opportunity, you have a great chance of having me, as I'm a sucker for good collaborations. <br/><i><strong>Feel free to connect!</strong></i></p>
                   </Card.Text>
-                  <a href={resume} target="_blank" rel="noreferrer noopener">
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
-                      <FontAwesomeIcon className="dark" size="lg" icon={faFile} /> View Resume
-                    </Button>
-                  </a>
-                  <a href={resume} download>
-                    <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
-                      <FontAwesomeIcon className="dark" size="lg" icon={faFile} /> Download Resume
-                    </Button>
-                  </a>
                 </Card.Body>
               </Card>
             </Col>
@@ -114,6 +103,11 @@ const About = ({ darkMode }) => {
                   <a href="https://github.com/Tejaswi-Chaudhari" target="_blank" rel="noreferrer noopener">
                     <Button variant={darkMode ? "outline-light" : "outline-dark"}>
                       <FontAwesomeIcon className="dark" size="lg" icon={faGithub} /> Tejaswi-Chaudhari
+                    </Button>
+                  </a>
+                  <a href={resume} download>
+                    <Button variant={darkMode ? "outline-light" : "outline-dark"} className='a'>
+                      <FontAwesomeIcon className="dark" size="lg" icon={faFile} /> Download Resume
                     </Button>
                   </a>
                   <img src={darkMode ? connectDark : connectLight} alt="connect" className="connect-img img-fluid animated" height="187px" width="290px" />

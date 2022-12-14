@@ -178,6 +178,14 @@ strong, .with{
     transform: rotateY(180deg);
 }
 
+.article-thumbnail{
+    cursor: pointer;
+}
+
+.article-thumbnail:hover{
+    filter: grayscale(80%);
+}
+
 .sbtn{
     margin-top: 20px;
 }

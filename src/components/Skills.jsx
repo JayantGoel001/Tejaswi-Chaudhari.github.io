@@ -55,7 +55,7 @@ const Skills = ({ darkMode }) => {
                             <Card className="skill-nbcard">
                                 <Card.Body >
                                     <Card.Title>Technologies</Card.Title>
-                                    <Card.Text>HTML, CSS, Bootstrap, Natural Language Processing, ReactJs, Docker, Cloud Firestore, Django, Django Rest Framework, SQLite</Card.Text>
+                                    <Card.Text>HTML, CSS, Bootstrap, Natural Language Processing, ReactJs, Docker, Cloud Firestore, Django, Django Rest Framework, SQLite, Oracle Database</Card.Text>
                                 </Card.Body>
                             </Card>
                             <Card className="skill-nbcard">

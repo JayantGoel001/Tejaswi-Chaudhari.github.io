@@ -7,7 +7,7 @@ const Footer = () => {
             <hr/>
             <p className="footer-text">Made with ♥️ by Tejaswi<br/>
                 <br/>
-                <small>All rights reserved © 2021 Tejaswi Chaudhari</small><br/>
+                <small>All rights reserved © 2022-23 Tejaswi Chaudhari</small><br/>
                 <small>Illustrations by undraw.co</small>
             </p>
         </div>

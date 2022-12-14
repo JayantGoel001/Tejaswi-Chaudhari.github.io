@@ -49,7 +49,7 @@ const Contact = ({ darkMode }) => {
                         <Col lg={4}>
                             <br/>
                             <h2 className="lead">Contact me!</h2>
-                            <p className="contact-text">Drop a suggestion, feedback, opportunities or we can colaborate on a project. Please mention your contact details if you are expecting a reply.</p>
+                            <p className="contact-text">Drop a suggestion, feedback, opportunity or we can colaborate on a project. Please mention your contact details if you are expecting a reply.</p>
                             <br/>
                             <img src={darkMode ? contactDark : contactLight} alt="contact" className="contact-img img-fluid" height="150px" width="228px" />
                             <br/>
